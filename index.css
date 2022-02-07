@@ -1,0 +1,160 @@
+#container{
+  width:1050px;
+  border:2px black solid;
+  margin:0px auto;
+}
+#header{
+  height:100px;
+  padding:20px 0px;
+  background: linear-gradient(white,grey);
+}
+#link1{
+  text-decoration:none;
+  color:black;
+  font-family:orbitron;
+  font-weight: 100px;
+  float:left;
+}
+#link1:hover{
+  color:white;
+}
+#searchbox{
+  float:right;
+  background: linear-gradient(black,grey);
+  width:400px;
+  height:50px;
+  padding:10px 10px 0px 10px;
+
+
+}
+#textarea{
+  float:left;
+  width:200px;
+  color:red;
+  padding:5px;
+  font-size:15px;
+  cursor:crosshair;
+  margin-top:5px;
+}
+#submit_btn{
+  float:right;
+  padding:5px;
+  color:white;
+  background:black;
+  cursor: pointer;
+  margin-top:5px;
+}
+#menubox{
+  margin-top: 40px;
+  height:50px;
+  padding:17px;
+  background: grey;
+}
+ul{
+  list-style: none;
+}
+#menubox ul li{
+  height:30px;
+  padding:0px 25px;
+  border-right: 2px solid black;
+  float: left;
+  font-size:16px;
+}
+#menubox ul li:last-child{
+  border-right:none;
+}
+#menubox ul li a{
+  text-decoration: none;
+  text-transform:uppercase;
+  color:white;
+  font-weight: bold;
+  line-height: 30px;
+  transition: font-size 0.4s ease;
+}
+#menubox ul li a:hover,#menubox ul li:active
+{
+  font-size:20px;
+  color:black;
+
+}
+
+#intro{
+  padding: 30px;
+  margin:0px 0px;
+  background: linear-gradient(white,grey);
+}
+#intro h3{
+  font-size: 30px;
+  text-align: center;
+  color:black;
+}
+#intro h3:hover{
+  color:white;
+  font-size: 30px;
+}
+#intro p{
+  color:black;
+  font-family: sans-serif;
+  text-align: justify;
+}
+
+.sidebar{
+  width:450px;
+  margin-top:30px;
+  border:2px solid black;
+  border-radius:15px;
+  padding:20px 25px;
+  background: linear-gradient(grey,white,black);
+}
+div.sidebar h2{
+  font-size: 25px;
+  font-family: orbitron;
+  padding: 10px;
+  color:white;
+  font-width:100px;
+}
+div.sidebar h2:hover{
+  font-size:35px;
+  color:black;
+  transition: font-size 0.4s ease,color 0.4s ease;
+}
+.sidebar ul li a{
+  font-size:25px;
+  text-decoration: none;
+  color:black;
+  transition: font-size 0.4s ease;
+  padding-left: 20px;
+}
+.sidebar ul li a:hover,.sidebar ul li a:active{
+  color:grey;
+  font-size:35px;
+}
+.sidebar ul li{
+  padding:15px 0px;
+}
+#leftbar ul li{
+  list-style-image:url(icons/crosshair.png);
+}
+#rightbar ul li{
+
+  list-style-image:url(icons/avatars.jpg);
+}
+#leftbar{
+  float:left;
+}
+#rightbar{
+  float:right;
+}
+
+.clear{
+  clear:both;
+}
+.footer1{
+  margin-top:20px;
+  font-weight: bold;
+  height:60px;
+  padding: 10px;
+  background: linear-gradient(black,white,grey);
+  font-size:25px;
+  text-align: center;
+}
